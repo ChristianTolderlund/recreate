@@ -15,16 +15,17 @@ nav {
   width: 100%;
 }
 input {
-  width: 250px;
+  width: 200px;
   height: 30px;
 }
 .search {
   display: inline-block;
   margin: 25px;
+  width: 20%;
 }
 .logo {
   display: inline-block;
-  width: 35%;
+  width: 50%;
   text-align: center;
   font-size: 35px;
 }
@@ -35,6 +36,7 @@ a {
   display: inline-block;
   width: 10%;
   font-size: 20px;
+
   text-align: center;
   background-color: #cc1f0c;
   border-color: transparent;
@@ -43,6 +45,15 @@ a {
   padding-top: 0.375rem;
   padding-bottom: 0.375rem;
   border-radius: 1.5rem;
+}
+.login:hover {
+  opacity: 0.5;
+}
+.btn1 {
+  color: rgb(255, 255, 255);
+}
+.btn2 {
+  color: black;
 }
 .signup {
   display: inline-block;
@@ -59,8 +70,13 @@ a {
   border-radius: 1.5rem;
   margin-left: 10px;
 }
+.signup:hover {
+  opacity: 0.5;
+}
 .arrow {
   display: inline-block;
   width: 10%;
-  justify-content: center;
+}
+.arrow:hover {
+  opacity: 0.5;
 }
