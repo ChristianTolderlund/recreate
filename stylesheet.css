@@ -82,7 +82,7 @@ main {
   display: grid;
 }
 .beer-ting {
-  margin-top: 150px;
+  margin-top: 175px;
   margin-bottom: 50px;
   margin-left: 25%;
 }
@@ -92,4 +92,34 @@ main {
 }
 .whocares {
   margin-left: 150px;
+}
+footer {
+  background-color: gray;
+}
+.dis {
+  list-style: none;
+  font-size: 20px;
+  margin-left: 50%;
+  line-height: 4rem;
+}
+.abo {
+  list-style: none;
+  font-size: 20px;
+  margin-left: 60%;
+  margin-top: -11.5%;
+  line-height: 4rem;
+}
+.reso {
+  list-style: none;
+  line-height: 4rem;
+  font-size: 20px;
+  margin-left: 70%;
+  margin-top: -12%;
+}
+.con {
+  list-style: none;
+  font-size: 20px;
+  margin-left: 80%;
+  margin-top: -11.5%;
+  line-height: 4rem;
 }
